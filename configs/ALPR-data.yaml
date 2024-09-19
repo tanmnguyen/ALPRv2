@@ -1,0 +1,13 @@
+path: ../datasets/ALPR
+train: images/train
+val: images/val 
+
+# Classes
+names:
+  0: license_plate 
+
+max_tokens: 10
+text_tokens: "0123456789ABCDEFGHKLMNPRSTUVXYZ"
+imgh: 640 
+imgw: 640
+
